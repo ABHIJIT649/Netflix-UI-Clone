@@ -11,7 +11,7 @@
 .backgroung{
     height: 100vh;
     width: 100%;
-    background-image: url("backimg.jpg");
+    background-image: url("backImg.jpg");
     background-size: cover;
     background-position: center;
     filter: brightness(0.3) saturate(0.9);
@@ -24,7 +24,6 @@
     /* background-color: brown; */
     height: 88px;
     width: 100%;
-    border: 1px solid black;
     display: flex;
    justify-content: space-around;
    position: relative;
@@ -49,14 +48,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.lang-wrapper{
+    border: 0.5px solid white;
+    background-color: transparent;
+    height: 30px;
+    width: 125px;
+    border-radius: 5.9px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.lanlogo{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 10px;
+}
+
 .search .lang{
-    
-    width: 130px;
+    width: 125px;
     background-color: transparent;
     color: white;
-    border-radius: 5.9px;
+     border: none;
     font-family: Arial, Helvetica, sans-serif;
-
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 15px;
 }
 
 .logo{
@@ -71,10 +87,11 @@ height: 40px;
 
 
 .container{
-    /* min-width: 100%;
-    min-height: 100%; */
-    width: 400px;
-     top: 18%;
+    min-width: 100%;
+    min-height: 100%;
+    /* width: 400px;
+     top: 18%; */
+     top: 150px;
     display: inline;
     justify-content: center;
     align-items: center;
@@ -91,7 +108,7 @@ height: 40px;
 }
 
 .content h1{
-    font-size:65px;
+    font-size:55px;
     font-family: Arial, Helvetica, sans-serif;
    font-weight: 1000;
    margin-bottom: 15px;
@@ -109,10 +126,8 @@ height: 40px;
     font-weight: bold;
     
 }
-
 .email-add{
-    padding: 20px;
-   
+    padding: 16px;
 }
 .email-add input{
     font-size: 16px;
@@ -123,19 +138,61 @@ height: 40px;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    
 }
 
 .email-add button{
     height: 55px;
     border:none ;
-    width: 180px;
+    width: 230px;
     background-color: #e50815;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 5px;
     margin-left: 5px;
 
+}
+
+.input{
+    color: white;
+    padding-left: 15px;
+}
+.input::placeholder{
+    color: white;
+}
+
+.curv-line-box{
+    top:309px;
+    height: 100px;
+    position: relative;
+    z-index: 9;
+    /* border: 2px solid white; */
+    background-color: rgba(64, 97, 231, 0.4);
+}
+
+.curv-line2{
+    margin-top: 16px;
+  border: 2px solid #e50815;
+   
+}
+
+
+.text-trend{
+   margin: 25px;
+   
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 9;
+   
+}
+
+.text-trend h3{
+   margin-top: 50px;
+   padding-left: 80px;
 }
