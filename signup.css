@@ -67,6 +67,9 @@
     font-weight: normal !important;
     margin: auto;
 }
+.Forget-pass:hover{
+    color: rgba(255, 255, 255, 0.537);
+}
 
 .signin-container-button{
     display: flex;
@@ -100,5 +103,8 @@
     font-size: 14px !important;
     font-weight: normal !important;
    color: rgba(255, 255, 255, 0.234) !important;
+}
+.login-page-footer{
+    height: 300px !important;
 }
 

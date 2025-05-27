@@ -1,0 +1,45 @@
+.backgroung{
+    background-image: url("./frgback.jpg") !important;
+    filter: brightness(0.5) saturate(0.9) !important;
+    height: 100vh !important;
+}
+.forget-pass-container{
+    height: 600px !important;
+    width: 500px !important;
+    background-color: rgba(255, 255, 255, 0.722) !important;
+}
+
+
+.Update-line{
+    color: black !important;
+}
+.reset-pass{
+    color: black !important;
+}
+
+.fog-pass-input{
+    color: black !important;
+    margin-top: 20px;
+    border: 1px solid black !important;
+}
+.frg-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.forget-number{
+    margin-top: 40px;
+    color: black;
+}
+
+.input::placeholder{
+    color: black !important;
+}
+
+
+.forget-number:hover{
+    color:rgba(255, 255, 255, 0.479) ;
+}
+
+.forget-pass-footer{
+    margin-top: 200px;
+}
